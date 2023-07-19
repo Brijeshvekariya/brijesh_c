@@ -1,21 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
+int main() {
+    char s[] = "Programming is fun";
+    int i;
 
-int main()
-{
-
-	char days;
-	printf("enter day :- ");
-	scanf("%c",&days);
-	switch(days)
-	{
-		case 106:
-			printf("Monday");
-			break;
-		case 2:
-			printf("Tuesday");
-			break;
-		default :
-			printf("Enter from 1 and 2");
-			
+    for (i = 0; s[i] != '\0'; ++i){
 	}
+    printf("Length of the string: %d", i);
+    
+    return 0;
 }

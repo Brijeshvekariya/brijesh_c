@@ -17,7 +17,7 @@ int main()
 		printf("Enter radius :- ");
 		scanf("%d",&r);
 		circle = pi*r*r;
-		printf("Area of circle = %f\n",circle); 
+		printf("Area of circle = %.4f\n",circle); 
 	}
 	else if(choice==2)
 	{
@@ -39,7 +39,7 @@ int main()
 		printf("Enter radius :- ");
 		scanf("%d",&r);
 		circle = pi*r*r;
-		printf("Area of circle = %f\n",circle); 
+		printf("Area of circle = %.4f\n",circle); 
 		
 		printf("Enter length and breadth of rectangle :- ");
 		scanf("%d %d",&l,&b);

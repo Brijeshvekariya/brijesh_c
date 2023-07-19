@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 
 int main()
 {
@@ -28,12 +28,12 @@ int main()
 		}
 	}
 }
+*/
 
 
 
-/*
 
-Another Method to solve the problem
+//Another Method to solve the problem
 
 
 #include<stdio.h>
@@ -55,4 +55,4 @@ int main()
 	{
 		printf("%d is the largest from given three numbers",input3);	
 	}
-*/
+}

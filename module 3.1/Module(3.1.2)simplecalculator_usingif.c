@@ -13,10 +13,8 @@ int main()
 	printf("press 2 for subtraction\n");
 	printf("press 3 for multiplication\n");
 	printf("press 4 for division\n");
-	printf("press 5 for modulo\n");
+	printf("press 5 for modulo\npress 6 for all\n");
 	scanf("%d",&ab);
-	printf("Enter any two numbers \n");
-	scanf("%d %d",&input1,&input2);
 	a= input1+input2;
 	b= input1-input2;
 	c= input1*input2;
@@ -27,31 +25,37 @@ int main()
 		printf("Addition of %d and %d is %d\n",input1,input2,a);
 	
 	}
-	if(ab==2)	
+	else if(ab==2)	
 	{
 		printf("Subtraction of %d and %d is %d\n",input1,input2,b);
 		
 	}
-	if(ab==3)
+	else if(ab==3)
 	{
 		printf("Multiplication of %d and %d is %d\n",input1,input2,c);
 		
 	}
-	if(ab==4)
+	else if(ab==4)
 	{
 		printf("Division of %d and %d is %d\n",input1,input2,d);
 	
 	}
-	if(ab==5)
+	else if(ab==5)
 	{
 		printf("Modulo/remainder of %d and %d is %d\n",input1,input2,e);
 	
 	}
+	else if(ab==6)
+	{
 	printf("Addition of %d and %d is %d\n",input1,input2,a);
 	printf("Subtraction of %d and %d is %d\n",input1,input2,b);
 	printf("Multiplication of %d and %d is %d\n",input1,input2,c);
 	printf("Division of %d and %d is %d\n",input1,input2,d);
 	printf("Modulo/remainder of %d and %d is %d\n",input1,input2,e);
-	
+	}
+	else
+	{
+		printf("Enter valid choice\n");
+	}
 	
 }
